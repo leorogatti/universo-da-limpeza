@@ -1,3 +1,18 @@
+input:disabled {
+  background-color: #E6E6E6;
+  background-image: url('/assets/lock.svg');
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1em;
+  padding-left: 3em;  
+  position: left;
+  background-size: 17px;
+}
+
+input::placeholder {
+  position: relative;
+  left: 2em;
+}
 
 * {
   margin: 0;
@@ -211,6 +226,47 @@ footer img:last-child {
   width: 20em;
 }
 
-@media (max-width: 1350px;) {
+@media (max-width: 1200px) {
 
+  .div-search input {
+    width: 25em;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .promotions h1, .more-selled h1 {
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+
+  .more-selled h1 {
+    margin-top: 1.5em;
+  }
+
+  #low-header {
+    text-align: center;
+  }
+  
+  header > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  header input {
+    margin: 2em 0 2em 0;
+  }
+  
+  .div-search input {
+    width: 20em;
+  }
+  
+  footer img:last-child {
+    display: none;
+  }
+
+  .footer-container a {
+    font-size: 16px;
+  }
 }

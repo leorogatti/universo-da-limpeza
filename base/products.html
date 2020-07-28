@@ -3,27 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/products.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <title>Universo Da Limpeza</title>
 </head>
 <body>
   <header>
     <div class="container">
-      <img src="assets/logo.svg" alt="Logo">
+      <img src="/assets/logo.svg" alt="Logo">
       
       <div class="div-search">
         <input id="text-search" type="text" placeholder="Buscar produto"> 
       </div>
       <nav>
-        <a href="#">Cadastre-se</a>
-        <a href="#">Entrar</a>
+        <a href="register.html">Cadastre-se</a>
+        <a href="login.html">Entrar</a>
       </nav>
     </div>
   </header>
 
   <section class="low-header">
-    <div class="container">
+    <div id="low-header" class="container">
       <a href="#">Produtos</a>
       <a href="#">Promoções</a>
     </div>
@@ -33,69 +34,75 @@
     <div>
       <section class="promotions">
         
-        <h1>Promoções</h1>
-        
-        <div class="cards cards-container">
-          <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
-            <p class="item-name">Esfregão Giratorio</p>
-            <p class="item-promotion">R$77,90</p>
-            <p class="price">R$69,99</p>
-          </div>
-
-          <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
-            <p class="item-name">Esfregão Giratorio</p>
-            <p class="item-promotion">R$77,90</p>
-            <p class="price">R$69,99</p>
-          </div>
-
-          <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
-            <p class="item-name">Esfregão Giratorio</p>
-            <p class="item-promotion">R$77,90</p>
-            <p class="price">R$69,99</p>
-          </div>
-
-          <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
-            <p class="item-name">Esfregão Giratorio</p>
-            <p class="item-promotion">R$77,90</p>
-            <p class="price">R$69,99</p>
-          </div>
+        <div class="products">
+          <h1>Produtos</h1>
+          <div class="custom-select">
+            <select name="category" id="category">
+              <option selected disabled>Escolha uma Categoria</option>
+              <option value="teste01">teste01</option>
+              <option value="teste02">teste02</option>
+              <option value="teste03">teste03</option>
+            </select>
+          </div>  
         </div>
-      </section>
-
-      <section class="more-selled">
-        
-        <h1>Mais vendidos</h1>
         
         <div class="cards cards-container">
           <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
-            <p class="item-name">Esfregão Giratorio</p>
-            <p class="price">R$69,99</p>
-          </div>
-
-          <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
+            <img src="/assets/item-1.png"alt="item-1">
             <p class="item-name">Esfregão Giratorio</p>
             <p class="item-promotion">R$77,90</p>
             <p class="price">R$69,99</p>
           </div>
 
           <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
+            <img src="/assets/item-1.png"alt="item-1">
             <p class="item-name">Esfregão Giratorio</p>
             <p class="item-promotion">R$77,90</p>
             <p class="price">R$69,99</p>
           </div>
 
           <div class="card">
-            <img src="assets/item-1.png" alt="item-1">
+            <img src="/assets/item-1.png"alt="item-1">
             <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
             <p class="price">R$69,99</p>
           </div>
+
+          <div class="card">
+            <img src="/assets/item-1.png"alt="item-1">
+            <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
+            <p class="price">R$69,99</p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/item-1.png"alt="item-1">
+            <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
+            <p class="price">R$69,99</p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/item-1.png"alt="item-1">
+            <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
+            <p class="price">R$69,99</p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/item-1.png"alt="item-1">
+            <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
+            <p class="price">R$69,99</p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/item-1.png"alt="item-1">
+            <p class="item-name">Esfregão Giratorio</p>
+            <p class="item-promotion">R$77,90</p>
+            <p class="price">R$69,99</p>
+          </div>
+
         </div>
       </section>
     </div>
@@ -120,11 +127,12 @@
     </div>
 
 
-    <img src="assets/logo-offsett.svg" alt="">
+    <img src="/assets/logo-offsett.svg" alt="">
   </footer>
 
   <div class="credits">
       <p>Universo da Limpeza © 2020</p>
   </div>
+
 </body>
 </html>
