@@ -21,7 +21,7 @@
   outline: 0;
   box-shadow: none;
   border: 0;
-  background: #C4EDD8;
+  background: #9be0fd;
   background-image: none;
   flex: 1;
   padding: 0 .5em;
@@ -29,7 +29,6 @@
   cursor: pointer;
   font-size: 1em;
   padding-left: 1em;
-  border-radius: ;
 }
 
 .products select::-ms-expand {
@@ -42,7 +41,7 @@
   width: 20em;
   height: 3em;
   line-height: 3;
-  background: #C4EDD8;
+  background: #9be0fd;
   color: #444;
 }
 
@@ -52,11 +51,10 @@
   top: 0;
   right: 0;
   padding: 0 1em;
-  background-color: #92DCB5;
+  background-color: #03ACF3;
   cursor: pointer;
   pointer-events: none;
   transition: .2 all;
-  border-radius: 0 10px 10px 0 ;
 }
 
 .custom-select:hover::after {

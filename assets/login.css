@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #0781D7, #0567ad);
+  background-image: linear-gradient(to bottom, #25429e, #1d337c);
   font-family: Roboto, Arial, sans-serif;
 }
 
@@ -44,7 +44,7 @@ form a {
 }
 
 form a:hover {
-  color: #0781D7;
+  color: #25429E;
 }
 
 
@@ -91,7 +91,7 @@ form .input-block input {
   color: #444;
   border-radius: 5px;
   border: 1px solid #CCDDEF;
-  outline-color: #47C55E;
+  outline-color: #03ACF3;
 }
 
 form .btn-login {
@@ -101,7 +101,7 @@ form .btn-login {
   display: block;
   min-width: 120px;
   border: none;
-  background-color: #47C55E;
+  background-color: #03ACF3;
   color: white;
   border-radius: 5px;
   padding: 10px;

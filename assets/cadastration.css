@@ -116,7 +116,7 @@ form .input-block input {
   color: #444;
   border-radius: 5px;
   border: 1px solid #CCDDEF;
-  outline-color: #47C55E;
+  outline-color: #25429E;
 }
 
 form .btn-login {
@@ -126,7 +126,7 @@ form .btn-login {
   display: block;
   min-width: 120px;
   border: none;
-  background-color: #47C55E;
+  background-color: #25429E;
   color: white;
   border-radius: 5px;
   padding: 10px;
